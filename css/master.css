@@ -1,0 +1,154 @@
+body {
+  background-color: #00629B;
+  margin: 0;
+}
+
+/* ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: #658D1B;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+} */
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.container  {
+  background-color: inherit;
+  width: 1000px;
+  margin: 60px auto;
+
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.uno {
+  padding: 20px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: white;
+  background-color: #E87722
+}
+
+.uno p {
+  font-size: 16px;
+}
+
+.dos {
+  padding: 20px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: white;
+  background-color: #658D1B
+}
+.tres {
+  padding: 20px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: white;
+  background-color: #772583
+}
+.cuatro {
+  padding: 20px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: white;
+  background-color: #31787B
+}
+.cinco {
+  padding: 20px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: white;
+  background-color: #002855
+}
+.seis {
+  padding: 20px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: white;
+  background-color: #861F41
+}
+
+.main {
+  margin: 60px auto;
+  width: 1000px;
+  background-color: #31787B
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 14px 16px;
+  background-color: #333;
+  text-align: center;
+  color: white;
+}
